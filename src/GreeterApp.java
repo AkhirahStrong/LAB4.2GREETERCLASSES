@@ -52,20 +52,6 @@ public class GreeterApp {
         //HTML greeter class
         HtmlGreeter htmlGreeter = new HtmlGreeter(greeting, tag);
         System.out.println(htmlGreeter.setTagName(tag));
-        
-       
-        
-
-        
-        //Greeter[] greeters = { greeter, simonGreeter, loudGreeter, htmlGreeter };
-        
-        
-   
-        //HtmlGreeter htmlGreeter = new HtmlGreeter(greeting, tag);
-        
-        //Create an array of classes. 
-        
-        //Arrays.stream(greeters).forEach(g -> System.out.println(g.greet(name)));
 	}
 
 }
